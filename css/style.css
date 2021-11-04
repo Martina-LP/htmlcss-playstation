@@ -14,9 +14,18 @@ header {
   left: 0;
   z-index: 100;
 }
-
+/* Logo */
+.logo img {
+  width: 70px;
+  height: 40px;
+}
+/* Navbar */
 nav li {
   margin: 2px;
+}
+
+span > img {
+  height: 12px;
 }
 
 header .nav_hover:hover {
@@ -33,4 +42,58 @@ header .nav_hover:hover {
 
 .nav_hover:hover .visibility_none {
   display: inline;
+}
+/* Lens */
+.lens {
+  height: 30px;
+}
+/* Main */
+.jumbotron_bg {
+  height: 700px;
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.p_bottom {
+  position: absolute;
+  bottom: 20px;
+}
+
+.button_orange {
+  color: white;
+  text-decoration: none;
+  background: #CD3D0F;
+  padding: 8px;
+  outline: 5px solid #CD3D0F;
+  border: 1px solid #CD3D0F; 
+}
+
+.button_orange:hover {
+  color: white;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+/* Gallery */
+.gallery {
+  padding: 3px;
+  border: 2px solid #0070D1;
+  border-radius: 20px;
+}
+
+.banner {
+  transition: 0.5s;
+}
+
+.banner:hover {  
+  cursor: pointer;
+  translate: 0 -10px;
+}
+
+.rounded_angles {
+  border-radius: 16px;
 }
