@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+nav li {
+  margin: 2px;
+}
+
+header .nav_hover:hover {
+  color: #0070D1 !important;
+}
+
+.nav_hover:hover .visibility {
+  display: none;
+}
+
+.visibility_none{
+  display: none;
+}
+
+.nav_hover:hover .visibility_none {
+  display: inline;
+}
