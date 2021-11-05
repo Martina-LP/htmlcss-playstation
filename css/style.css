@@ -7,6 +7,10 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
 /* Header */
 header {
   position: sticky;
@@ -97,7 +101,7 @@ header .nav_hover:hover {
 .rounded_angles {
   border-radius: 16px;
 }
-/* Accessories */
+/* PlayStation5 */
 .blue_button {
   color: white;
   text-decoration: none;
@@ -129,4 +133,19 @@ img.opacity:hover {
 
 .selected {
   border-bottom: 2px solid #0070D1;
+}
+/* It Takes Two */
+.banner_bg_center {
+  height: 700px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.it_takes_two img {
+  width: 240px;
+}
+
+.it_takes_two h1, .it_takes_two p {
+  margin: 20px 0;
 }
