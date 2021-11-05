@@ -186,4 +186,26 @@ img.opacity:hover {
 .pointer {
   cursor: pointer;
 }
-/*  */
+/* PlayStation plus */
+.bg_lightgray {
+  background-color: #BEBCBB;
+}
+
+.ps_plus img {
+  width: 60%;
+}
+
+.transparent_button {
+  color: #0070D1;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.699);
+  padding: 8px;  
+}
+
+.transparent_button:hover {
+  color: #0070D1;
+  border: 2px solid black;
+  outline: 4px solid rgba(255, 255, 255, 0.699);
+  transition: 0.2s ease;
+}
+/* Sales store */
