@@ -97,15 +97,13 @@ header .nav_hover:hover {
   height: 124px;
   padding: 2px 2px;
   border: 2px solid #0070D1;
+  transition: 0.2s ease;
 }
 
 .first_card:hover {
+  margin: 2px;
   border: 2px solid #0070D1;
   overflow: hidden;
-}
-
-.first_card:hover {
-  margin: -3px;
 }
 
 .banner {
@@ -118,10 +116,11 @@ header .nav_hover:hover {
 .banner:hover {
   width: 200px;
   height: 113px;
+  margin: 2px;
   cursor: pointer;
   border-radius: 16px;
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1);
   box-shadow: 0px 5px 20px 5px lightgrey;
 }
 
@@ -192,14 +191,15 @@ img.opacity:hover {
 }
 
 .ps_plus img {
-  width: 60%;
+  width: 65%;
 }
 
 .transparent_button {
   color: #0070D1;
   text-decoration: none;
   background: rgba(255, 255, 255, 0.699);
-  padding: 8px;  
+  padding: 8px;
+  white-space: nowrap;
 }
 
 .transparent_button:hover {
@@ -209,3 +209,39 @@ img.opacity:hover {
   transition: 0.2s ease;
 }
 /* Sales store */
+.sales img:hover {
+  margin: 5px;
+  transform: scale(1);
+  transition: 0.2s ease;
+  box-shadow: 0px 5px 20px 5px lightgrey;
+}
+/* PlayStation now */
+.bg_darkblue {
+  background-color: #161C3B;
+}
+
+.now img {
+  width: 65%;
+}
+
+.white_button {
+  color: black;
+  text-decoration: none;
+  background: white;
+  padding: 8px;   
+}
+
+.white_button:hover {
+  color: black ;
+  border: 2px solid black;
+  outline: 4px solid white;
+  transition: 0.2s ease;
+}
+/* Socials */
+.social img:hover {
+  margin: 5px;
+  transform: scale(1);
+  transition: 0.2s ease;
+  box-shadow: 0px 5px 20px 5px lightgrey;
+}
+/* Footer */
