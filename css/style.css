@@ -64,7 +64,7 @@ header .nav_hover:hover {
   bottom: 20px;
 }
 
-.button_orange {
+.orange_button {
   color: white;
   text-decoration: none;
   background: #CD3D0F;
@@ -73,7 +73,7 @@ header .nav_hover:hover {
   border: 1px solid #CD3D0F; 
 }
 
-.button_orange:hover {
+.orange_button:hover {
   color: white;
   border: 2px solid white;
   transition: 0.5s;
@@ -96,4 +96,37 @@ header .nav_hover:hover {
 
 .rounded_angles {
   border-radius: 16px;
+}
+/* Accessories */
+.blue_button {
+  color: white;
+  text-decoration: none;
+  background: #0070D1;
+  padding: 8px;
+  outline: 5px solid #0070D1;
+  border: 1px solid #0070D1;
+}
+
+.blue_button:hover{
+  color: white;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+.ps5 img {
+  width: 100%;
+}
+
+img.opacity {
+  filter: opacity(0.5);
+  transition: 0.5s;
+}
+
+img.opacity:hover {
+  cursor: pointer;
+  filter: opacity(1);
+}
+
+.selected {
+  border-bottom: 2px solid #0070D1;
 }
