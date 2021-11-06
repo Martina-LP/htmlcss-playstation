@@ -236,6 +236,7 @@ img.opacity:hover {
   border: 2px solid black;
   outline: 4px solid white;
   transition: 0.2s ease;
+  white-space: nowrap;
 }
 /* Socials */
 .social img:hover {
@@ -245,3 +246,34 @@ img.opacity:hover {
   box-shadow: 0px 5px 20px 5px lightgrey;
 }
 /* Footer */
+.bg_blue {
+  background-color: #00439C;
+}
+
+.footer_logo {
+  height: 100px;
+  filter: brightness(0) invert(1);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.small {
+  left: 80px;
+  bottom: 16px;
+  font-size: 8px;
+}
+
+.globe {
+  height: 20px;
+}
+
+.list_none {
+  list-style-type: none;
+}
+
+.sony {
+  height: 50px;
+}
+
