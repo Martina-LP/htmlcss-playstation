@@ -93,8 +93,6 @@ header .nav_hover:hover {
 }
 /* Gallery */
 .banner_one {
-  width: 200px;
-  height: 116px;
   padding: 2px 2px;
   border: 2px solid #0070D1;
   opacity: 0.88;
@@ -102,8 +100,6 @@ header .nav_hover:hover {
 }
 
 .banner_one:hover {
-  width: 200px;
-  height: 116px;
   margin: 2px;
   cursor: pointer;
   border-radius: 16px;
@@ -113,15 +109,11 @@ header .nav_hover:hover {
 }
 
 .banner {
-  width: 200px;
-  height: 113px;
   opacity: 0.88;
   transition: 0.2s ease;
 }
 
 .banner:hover {
-  width: 200px;
-  height: 113px;
   margin: 2px;
   cursor: pointer;
   border-radius: 16px;
