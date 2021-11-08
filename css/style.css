@@ -92,18 +92,24 @@ header .nav_hover:hover {
   transition: 0.2s ease;
 }
 /* Gallery */
-.first_card { /* Modificare */
-  width: 210px;
-  height: 124px;
+.banner_one {
+  width: 200px;
+  height: 116px;
   padding: 2px 2px;
   border: 2px solid #0070D1;
+  opacity: 0.88;
   transition: 0.2s ease;
 }
 
-.first_card:hover {
+.banner_one:hover {
+  width: 200px;
+  height: 116px;
   margin: 2px;
-  border: 2px solid #0070D1;
-  overflow: hidden;
+  cursor: pointer;
+  border-radius: 16px;
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0px 5px 20px 5px lightgrey;
 }
 
 .banner {
