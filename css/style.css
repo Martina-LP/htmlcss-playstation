@@ -99,7 +99,7 @@ header .nav_hover:hover {
   transition: 0.2s ease;
 }
 
-.banner_one:hover {
+.banner_one:hover, .banner:hover {
   margin: 2px;
   cursor: pointer;
   border-radius: 16px;
@@ -111,15 +111,6 @@ header .nav_hover:hover {
 .banner {
   opacity: 0.88;
   transition: 0.2s ease;
-}
-
-.banner:hover {
-  margin: 2px;
-  cursor: pointer;
-  border-radius: 16px;
-  opacity: 1;
-  transform: scale(1);
-  box-shadow: 0px 5px 20px 5px lightgrey;
 }
 
 .rounded_angles {
